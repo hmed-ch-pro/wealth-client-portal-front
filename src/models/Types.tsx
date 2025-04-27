@@ -49,3 +49,13 @@ export interface Security {
     amount: string;
     date: string;
   }
+
+export interface Transaction {
+    date: string;
+    quantity: number;
+    amount: number;
+    currency: string;
+    direction: string;
+    senderRecipient: string;
+    description: string;
+}
